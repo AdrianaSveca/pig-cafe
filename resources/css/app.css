@@ -29,3 +29,58 @@ a{
     color: black;
     transition:0.1s;
 }
+.hero {
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+gap:20px;
+}
+.button{
+    background-color:#f4a261;
+    color: black;
+    padding:5px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.button:hover{
+    background-color: #e76f51;
+}
+.hero h1,
+.hero p {
+    color: white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+}
+.pigs-section{
+    margin: 10px;
+    padding: 60px;
+    text-align: center;
+    background-color: #ffced7;
+    border-radius: 20px;
+
+}
+.pig-cards{
+    display: flex;
+    gap:30px;
+}
+.pig-card{
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:inset;
+}
+.pig-card img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px rgb(184, 183, 183);
+    
+}
