@@ -67,14 +67,15 @@ gap:20px;
 
 }
 .pig-cards{
+    flex-wrap: wrap;
     display: flex;
     gap:30px;
 }
 .pig-card{
-    flex-wrap: wrap;
+    width: 180px;
     border-radius: 20px;
     padding: 20px;
-    box-shadow:inset;
+    transition: 0.3s;
 }
 .pig-card img{
     width:150px;
@@ -83,4 +84,11 @@ gap:20px;
     border-radius: 20px;
     box-shadow:5px 5px 5px rgb(184, 183, 183);
     
+}
+.pig-card:hover {
+    transform: translateY(-3px);
+}
+.pig-card:hover h3 {
+    color:palevioletred;
+
 }
