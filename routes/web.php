@@ -17,4 +17,9 @@ Route::get('/contact', function () {
 Route::get('/book', function () {
     return view('book');
 });
-
+Route::get('/login', function () {
+    return view('auth.login');
+});
+Route::get('/register', function () {
+    return view('auth.register');
+});
